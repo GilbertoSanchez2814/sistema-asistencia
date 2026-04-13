@@ -1,0 +1,110 @@
+body {
+    font-family: Arial;
+    background: #f4f6f9;
+}
+
+.login-box {
+    width: 300px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #343a40;
+    position: fixed;
+    color: white;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #495057;
+}
+
+/* CONTENIDO */
+.content {
+    margin-left: 230px;
+    padding: 20px;
+}
+
+/* TARJETAS */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+/* TABLAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th {
+    background: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* BOTONES */
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* INPUTS */
+input, select {
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+}
+
+/* TITULOS */
+h1, h3 {
+    color: #333;
+}
